@@ -1,0 +1,30 @@
+{
+  "name": "vinmonopolet-untappd-scraper",
+  "version": "1.0.0",
+  "description": "Yes, I am super cynical with what I buy on VM",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^5.4.1",
+    "untappd-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run compile && node index.js",
+    "compile": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiriksm/vinmonopolet-untappd-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eiriksm/vinmonopolet-untappd-scraper/issues"
+  },
+  "homepage": "https://github.com/eiriksm/vinmonopolet-untappd-scraper#readme"
+}
